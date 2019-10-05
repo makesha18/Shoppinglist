@@ -1,0 +1,57 @@
+body {
+	font: 400 26px/1.3  "Trebuchet MC", Trebuchet, Arial, sans-serif;
+	border: 25px solid #fff;
+	background-color: #3B3F45;
+	color: #EAF5F9;
+ }
+ .ba-header{
+	 color: #EB7E7F;
+	 background: rgb(74, 79, 86);
+	 text-align: center;
+	 padding: 30px 0;
+	 color: rgb(230, 76, 79);
+ }
+ .ba-container{
+	max-width: 800px;
+	margin: 0 auto;
+ }
+ .ba-shoping-list{
+	list-style: none;
+	padding: 0;
+	margin: left 20%;
+ }
+ .ba-shoping-list li{
+	 background: #625E77;
+	 border: 0 solid #fff;
+ }
+ .ba-shoping-list li:nth-child(odd){
+	 background: rgb(140, 133, 177);
+ }
+ .ba-shoping-list [type="checkbox"]:checked + span {
+	 text-decoration: line-through;
+	 color: rgb(177, 168, 221)
+ }
+
+ .ba-shoping-list label {
+	 display: block;
+	 cursor: pointer;
+	 padding: 20px;
+ }
+ .ba-shoping-list li:hover{
+	color: #EB7E7F;
+}
+
+ .ba-shoping-list .ba-description:before{
+	 content:"(";
+ }
+ .ba-shoping-list .ba-description::after{
+	content:")";
+}
+ .ba-footer{
+	color: #EB7E7F;
+	 background: rgb(74, 79, 86);
+	 text-align: center;
+	 padding: 30px 0;
+	 color: rgb(230, 76, 79);
+}
+*{transition: all .1s ease-in;}
